@@ -39,6 +39,11 @@
       "nombre": "Mascara de muerte",
       "constelacion": "Cancer",
       "id": 8
+    },
+    {
+      "nombre": "Shaka",
+      "constelacion": "Virgo",
+      "id": 9
     }
   ],
   "diose": [

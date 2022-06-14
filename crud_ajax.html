@@ -117,9 +117,7 @@
             ajax({
               url: "http://localhost:5555/santos",
               method: "POST",
-              success: (res) => {
-                console.log(res);
-              },
+              success: (res) => location.reload(),
               error: (err) =>
                 $form.insertAdjacentHTML("afterend", `<p><b>${err}</b></p>`),
               data: {
@@ -132,9 +130,7 @@
             ajax({
               url: `http://localhost:5555/santos/${e.target.id.value}`,
               method: "PUT",
-              success: (res) => {
-                console.log(res);
-              },
+              success: (res) => location.reload(),
               error: (err) =>
                 $form.insertAdjacentHTML("afterend", `<p><b>${err}</b></p>`),
               data: {
@@ -163,9 +159,7 @@
             ajax({
               url: `http://localhost:5555/santos/${e.target.dataset.id}`,
               method: "DELETE",
-              success: (res) => {
-                console.log(res);
-              },
+              success: (res) => location.reload(),
               error: (err) => alert(err),
               //$form.insertAdjacentHTML("afterend", `<p><b>${err}</b></p>`),
             });
