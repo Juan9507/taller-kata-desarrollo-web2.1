@@ -1,0 +1,30 @@
+body {
+  background-color: silver;
+}
+h1 {
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: black;
+}
+h2 {
+  font-size: 27px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  color: black;
+}
+hr {
+  border-top: 1px solid white !important;
+}
+.container {
+  width: 80%;
+}
+.title-api {
+  padding-top: 20px;
+  text-align: center;
+}
+th,
+td {
+  color: white;
+  text-align: center;
+}
